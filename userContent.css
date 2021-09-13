@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'font'; /*font variable name*/
+    src: url("bahnschrift.ttf"); /*URL to font*/
+}
+
+/* DNS Not Found */
+
+.dnsNotFound #errorPageContainer{
+	background-image: url("foxq.png") !important;
+	background-position: center !important;
+	background-size: auto 300px !important;
+	background-repeat: no-repeat !important;
+	font-family: 'font' !important;
+}
+
+/* Page Not Found */
+
+.connectionFailure #errorPageContainer{
+	background-image: url("foxq.png") !important;
+	background-position: center !important;
+	background-size: auto 300px !important;
+	background-repeat: no-repeat !important;
+	font-family: 'font' !important;
+}
+
+/* Connection Timed Out */
+
+.netTimeout #errorPageContainer{
+	background-image: url("foxq.png") !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: auto 300px !important;
+	font-family: 'font' !important;
+}
+
+/* Restricted Address */
+
+
+.neterror #errorPageContainer{
+	background-image: url("foxq.png") !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: auto 300px !important;
+	font-family: 'font' !important;
+}
+
+/* HTTPS-Only Mode Alert*/
+
+html body main.container {
+	background-image: url("foxe.png") !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: auto 425px !important;
+	font-family: 'font' !important;
+}
+
+.title > h2 {
+	font-style: italic !important;
+}
+
+/* Buttons */
+
+button.try-again {
+	background-color: #040628 !important;
+	border-color: white !important;
+	border-width: 1px !important;
+	border-radius: 12px !important;
+	color: white !important;
+}
+
+/* Buttons for HTTPS-Only Mode Alert */
+
+#openInsecure {
+	border-radius: 12px !important;
+	border-color: #1c1b22 !important;
+	border-width: 2px !important;
+	background-color: #040628 !important;
+}
+
+#goBack {
+	border-radius: 12px !important;
+	background-color: transparent !important;
+	border-color: white !important;
+	border-width: 1px !important;
+	color: white !important;
+}
+
+#goBack:focus {
+	outline: none !important;
+}
+
+/* Titles */
+
+.title-text {
+	text-transform: uppercase !important;
+}
